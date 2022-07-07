@@ -1,0 +1,37 @@
+@import url("./cabecalho.css");
+@import url("./principal.css");
+@import url("./rodape.css");
+@import url("./principal-formulario.css");
+@import url("./formulario.css");
+
+
+:root{
+  --azul-primaria: #3772FF;
+  --verde-secundario: #36D6AD;
+  --cor-botao: #FC7071;
+  --cor-botao-hover: #FF9D9E;
+  --creme: #FCF0E3;
+  --cinza: #737380;
+  --cinza-claro: #BCBCBC;
+  --branco: #FFFFFF;
+  --fundo-campo-texto:#F7F7F7;
+
+  --fonte-principal: 'Poppins', sans-serif;
+  --fonte-titulo: 'IBM Plex Sans', sans-serif;
+
+  font-size: 62.5%; /*transforma 10px = 1rem */
+}
+
+.corpo-inicial{
+  background-color: var(--azul-primaria);
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: var(--fonte-principal);
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: var(--branco);
+}

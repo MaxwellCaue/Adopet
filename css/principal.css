@@ -1,0 +1,56 @@
+.principal{
+  text-align: center;
+  margin-inline: 5.6rem;
+  margin-top: 9.9rem;
+}
+
+.principal__titulo{
+  color: var(--branco);
+  font-family: var(--fonte-titulo);
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin: 2.4rem 0 1.6rem 0;
+}
+
+.principal__texto{
+  color: var(--branco);
+  line-height: 150%;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 9.6rem;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+
+.botao{
+  color: var(--branco);
+  font-weight: 600;
+  background-color: var(--cor-botao);
+  text-decoration: none;
+  width: 50vw;
+  padding: 1rem 0;
+  border: 0.1rem solid var(--cor-botao);
+  border-radius: 0.6rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgb(94, 84, 84);
+}
+
+.figura2{
+  background: url("../img/Forma\ 2.svg") no-repeat;
+  height: 41.5rem;
+  width: 7rem;
+  position: absolute;
+  z-index: -1;
+  right: 0em;
+  top: 32%;
+}
+
+.ilustracao-cat-dog{
+  margin: 10% 7.9rem 0 3.36rem;
+  margin-bottom: -2rem;/* Nuca tinha pensado na margin negativa Obrigado colegas da Alura*/
+  position: relative;
+  z-index: -1;
+}

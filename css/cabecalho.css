@@ -1,0 +1,28 @@
+.cabecalho{
+ padding: 4.8rem;
+}
+
+.cabecalho__casa{
+  margin-right: 5.86rem;
+}
+
+.forma1{
+  background: url("../img/Forma\ 1.svg") no-repeat;
+  height: 29.5rem;
+  width: 35.21rem;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left:-0.5px;
+}
+
+.figura-patas{
+  background: url("../img/Patas.svg") no-repeat;
+  background-position: right;
+  background-position-y: top;
+  height: 24.34rem;
+  width: 18.99rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

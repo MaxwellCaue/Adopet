@@ -1,0 +1,28 @@
+.principal-formulario{
+  margin: 0 2.4rem;
+  text-align: center;
+}
+
+.principal-formulario__logo{
+  margin-top: 3rem;
+}
+
+.principal-formulario__texto{
+  color: var(--azul-primaria);
+  margin: 2.4rem 0;
+}
+
+.principal-formulario__texto--login{
+  margin: 5.7rem 0 4.2rem 0;
+}
+
+.forma3{
+  background: url("../img/Forma\ 3.svg") no-repeat;
+  background-size: contain;
+  width: 8.27rem;
+  height: 37.5rem;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 34.8rem;
+}
