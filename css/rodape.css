@@ -8,6 +8,9 @@
  
 }
 
+.rodape__texto a{
+  text-decoration: underline;
+}
 .rodape__texto a,
 .rodape__texto{
   color: var(--branco);

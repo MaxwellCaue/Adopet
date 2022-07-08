@@ -1,9 +1,16 @@
 .cabecalho{
- padding: 4.8rem;
+  padding: 4.8rem;
+ 
 }
 
 .cabecalho__casa{
   margin-right: 5.86rem;
+}
+
+.container-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .forma1{

@@ -38,6 +38,7 @@
   color: var(--cor-botao);
   font-size: 1.2rem;
   margin-bottom: 2.4rem;
+  text-decoration: underline;
 }
 
 .formulario__botao{

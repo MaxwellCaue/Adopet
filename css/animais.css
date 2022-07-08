@@ -1,0 +1,10 @@
+.animais{
+ text-align: center;
+}
+
+.animais__titulo{
+  color: var(--azul-primaria);
+  line-height: 2rem;
+  width: 22.6rem;
+  margin: 1rem auto 3.2rem auto;
+}

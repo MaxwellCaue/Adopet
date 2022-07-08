@@ -1,0 +1,53 @@
+.card{
+  background-color: var(--fundo-campo-texto);
+  display: flex;
+  justify-content: space-evenly;
+  height: 19.6rem;
+  margin-bottom: 1.6rem;
+  box-sizing: border-box;
+}
+
+.card__imagem{
+  width: 14.8rem;
+  height: 14.8rem;
+  margin-block: auto;
+}
+
+.card__descricao{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card__titulo{
+  color: var(--azul-primaria);
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.card__texto{
+  color: var(--cinza);
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card__estado{
+  color: var(--cinza);
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.card__link{
+  display: flex;
+  align-items: center;
+
+  color: var(--cinza);
+  font-size: 1rem;
+}
+
+.card__link img{
+  margin-right: 0.8rem;
+}
